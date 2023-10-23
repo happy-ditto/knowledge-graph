@@ -43,6 +43,7 @@ The following installation steps are written w.r.t. linux operating system and p
 10. Download and unzip stanford open-ie (Not required if already present due to git clone)
 11. Install python-tk:  
     `sudo apt-get install python3-tk`
+    For MAC user, run `pip3 install tk`
 12. Install pandas:  
     `pip3 install pandas`
 ### knowledge_graph.py
@@ -70,6 +71,8 @@ e.g.:
 
 `python3 knowledge_graph.py optimized verbose nltk spacy`  
 will o/p ner via nltk and spacy, and perform coreference resolution
+
+For Mac User, run `sudo python3 knowledge_graph.py <options>` and the standford core package we use is `stanford-corenlp-4.5.3`
 
 
 ##### inputs to knowledge_graph.py
